@@ -1,0 +1,19 @@
+{
+    "project_name": "example-project",
+    "friendly_name": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('-', '-') }}",
+    "repo_name": "{{ cookiecutter.friendly_name.lower().replace(' ', '-').replace('-', '-') }}",
+    "project_slug": "{{ cookiecutter.friendly_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "Brief description of the project",
+    "version": "0.0.0",
+    "full_name": "Ari Ugarte",
+    "email": "ari.ugarte@gmail.com",
+    "github_username": "ariugarte",
+    "default_python_version": ["3.10"],
+    "default_branch": ["main", "master"],
+    "license": ["MIT", "Apache-2.0", "GPL-3.0", "UNLICENSED"],
+    "development_status": [
+        "Development Status :: 1 - Planning"
+    ],
+    "logo_url": "https://raw.githubusercontent.com/juftin/juftin/main/static/juftin.png",
+    "favicon": "https://juftin.com/favicon.ico"
+}
